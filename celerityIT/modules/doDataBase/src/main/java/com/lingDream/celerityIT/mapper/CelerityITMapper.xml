@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lingDream.celerityIT.mapper.CelerityITMapper">
+    <!--region 关于数据-->
+    <!--region 查询数据-->
+    <sql id="querySql">
+        select ${ew.columns} from
+        <choose>
+            <when test="ew.querySql == null or ew.querySql == ''">
+                ${ew.tableName}
+            </when>
+            <otherwise>
+                (${ew.querySql}) t
+            </otherwise>
+        </choose>
+
+        <where>
+            ${ew.customSqlSegment}
+        </where>
+    </sql>
+    <select id="query" resultType="map">
+        <include refid="querySql"></include>
+    </select>
+
+    <select id="queryPage" resultType="map">
+        <include refid="querySql"></include>
+    </select>
+    <!--endregion-->
+
+    <!--新增数据-->
+    <insert id="insertData">
+        insert into ${table.name}
+        <foreach collection="ew.entity.fieldSet" item="field" open="(" close=")" separator=",">
+            ${field.name}
+        </foreach>
+        VALUES
+        <foreach collection="tableList" item="table">
+            <foreach collection="table.fieldSet" item="field" open="(" close=")" separator=",">
+                ${field.value}
+            </foreach>
+        </foreach>
+    </insert>
+    <!--修改数据-->
+    <update id="updateData">
+        update ${ew.tableName}
+        <set>
+
+        </set>
+        <where>
+            ${ew.customSqlSegment}
+        </where>
+    </update>
+    <!--删除数据-->
+    <delete id="deleteData">
+        delete from ${ew.tableName}
+        <where>
+            ${ew.customSqlSegment}
+        </where>
+    </delete>
+    <!--endregion-->
+
+    <!--region 关于表-字段-->
+    <!--新建表-->
+    <insert id="">
+        create table ${ew.tableName}
+    </insert>
+    <!--删除表-->
+    <!--修改表-->
+    <!--endregion-->
+</mapper>
