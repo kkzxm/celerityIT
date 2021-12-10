@@ -15,16 +15,16 @@ public class DoTableFieldServiceImpl implements DoTableFieldService {
 
     @Override
     public Integer addTableField(Table table) {
-        return null;
+        return mapper.addTableField(table);
     }
 
     @Override
     public Integer delTableField(Table table) {
-        return null;
+        return mapper.delTableField(table);
     }
 
     @Override
     public Integer changeTableField() {
-        return null;
+        return mapper.changeTableField();
     }
 }
