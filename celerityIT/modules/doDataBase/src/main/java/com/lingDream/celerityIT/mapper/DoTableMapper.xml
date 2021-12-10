@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lingDream.celerityIT.mapper.DoTableMapper">
+    <!--region 关于表-->
+    <!--region  新增 删除 截断 数据库表-->
+    <!--新建表-->
+    <update id="createTable">
+        create table IF NOT EXISTS ${table.name}
+        <foreach collection="table.fieldSet" item="field" open="(" close=")" separator=",">
+            ${field.name} ${field.type}(${field.size})
+            <if test="field.primary">
+                primary key
+            </if>
+            comment #{field.comment}
+        </foreach>
+    </update>
+    <!--删除表-->
+    <update id="dropTable">
+        drop table if exists ${table.name}
+    </update>
+    <!--截断表-->
+    <update id="clearTable">
+        truncate table ${table.name}
+    </update>
+    <!--endregion-->
+
+    <!--region 修改表信息-->
+    <!--修改表名-->
+    <update id="renameTable">
+        alter table ${oldTable.name}
+        <if test="newTable.name != null and newTable.name != ''">
+            rename to ${newTable.name}
+        </if>
+    </update>
+    <!--修改表备注-->
+    <update id="changeTableComment">
+        alter table ${oldTable.name}
+        <if test="newTable.comment != null and newTable.comment != ''">
+            comment #{newTable.comment}
+        </if>
+    </update>
+    <!--endregion-->
+    <!--endregion-->
+</mapper>

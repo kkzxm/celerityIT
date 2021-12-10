@@ -1,14 +1,13 @@
 package com.lingDream.celerityIT;
 
-import com.lingDream.celerityIT.service.CelerityITService;
+import com.lingDream.celerityIT.service.DoDataService;
 import org.springframework.stereotype.Service;
 
 @Service
 public class DoRedis {
-    private final CelerityITService celerityITService;
+    private final DoDataService dataService;
 
-
-    public DoRedis(CelerityITService celerityITService) {
-        this.celerityITService = celerityITService;
+    public DoRedis(DoDataService dataService) {
+        this.dataService = dataService;
     }
 }

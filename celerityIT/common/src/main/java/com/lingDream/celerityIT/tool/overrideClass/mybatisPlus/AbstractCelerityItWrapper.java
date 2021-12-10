@@ -18,15 +18,18 @@ public abstract class AbstractCelerityItWrapper extends UpdateWrapper<Map<String
     protected final StringBuffer operationSql = new StringBuffer();
     protected final Set<String> columnSet = new HashSet<>();
 
-    public abstract String getOperationSql();
-
-    public <T extends AbstractCelerityItWrapper> T setTableName(String tableName){
+    public <T extends AbstractCelerityItWrapper> T setTableName(String tableName) {
         this.tableName = tableName;
-        return (T)this;
+        return (T) this;
     }
 
     public <T extends AbstractCelerityItWrapper> T addColumns(String... columns) {
         columnSet.addAll(Arrays.asList(columns));
-        return (T)this;
+        return (T) this;
+    }
+
+    public String getColumns() {
+        String columnStr = String.valueOf(columnSet);
+        return "(" + columnStr.substring(1, columnStr.length() - 1) + ")";
     }
 }

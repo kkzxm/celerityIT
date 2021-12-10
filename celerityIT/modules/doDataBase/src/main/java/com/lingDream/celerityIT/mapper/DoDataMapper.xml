@@ -2,7 +2,7 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.lingDream.celerityIT.mapper.CelerityITMapper">
+<mapper namespace="com.lingDream.celerityIT.mapper.DoDataMapper">
     <!--region 关于数据-->
     <!--region 查询数据-->
     <sql id="querySql">
@@ -31,14 +31,11 @@
 
     <!--新增数据-->
     <insert id="insertData">
-        insert into ${table.name}
-        <foreach collection="ew.entity.fieldSet" item="field" open="(" close=")" separator=",">
-            ${field.name}
-        </foreach>
+        insert into ${entity.tableName} (${entity.fieldStr})
         VALUES
-        <foreach collection="tableList" item="table">
-            <foreach collection="table.fieldSet" item="field" open="(" close=")" separator=",">
-                ${field.value}
+        <foreach collection="entity.valueSqlList" item="valueSql" separator=",">
+            <foreach collection="valueSql" item="value" separator="," open="(" close=")">
+                #{value}
             </foreach>
         </foreach>
     </insert>
@@ -46,18 +43,14 @@
     <update id="updateData">
         update ${ew.tableName}
         <set>
-
+            ${ew.sqlSet}
         </set>
-        <where>
-            ${ew.customSqlSegment}
-        </where>
+        ${ew.customSqlSegment}
     </update>
     <!--删除数据-->
     <delete id="deleteData">
-        delete from ${ew.tableName}
-        <where>
-            ${ew.customSqlSegment}
-        </where>
+        delete
+        from ${ew.tableName} ${ew.customSqlSegment}
     </delete>
     <!--endregion-->
 
