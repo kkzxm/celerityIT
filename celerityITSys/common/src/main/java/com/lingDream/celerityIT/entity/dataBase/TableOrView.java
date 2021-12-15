@@ -14,7 +14,7 @@ import java.util.Set;
 @Accessors(chain = true)
 public abstract class TableOrView {
     private String name;//表名
-    private DataBase dataBase;//所属数据库
+    private DataBaseCatalog catalog;//所属数据库
     private String comment; //备注
     private final Set<Field> fieldSet = new HashSet<>(); // 包含字段
 

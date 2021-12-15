@@ -1,6 +1,7 @@
 package com.lingDream.celerityIT.entity.dataBase;
 
 import lombok.Data;
+import lombok.experimental.Accessors;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -9,7 +10,8 @@ import java.util.Set;
  * 数据库的库
  */
 @Data
-public class DataBase {
+@Accessors(chain = true)
+public class DataBaseCatalog {
     /**
      * 库名
      */
