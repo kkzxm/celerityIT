@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f1d8aaf9-646a-465f-9b05-7f12bdc2f119" name="变更" comment="测试类搭建">
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/.idea/celerityIT.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_xml_2_9_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_9_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__com_fasterxml_woodstox_woodstox_core_5_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__com_github_andrewoma_dexx_dexx_collections_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__com_github_vlsi_compactmap_compactmap_1_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__com_google_code_gson_gson_2_8_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__com_google_guava_guava_16_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__com_google_inject_guice_4_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__com_netflix_archaius_archaius_core_0_7_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__com_netflix_eureka_eureka_client_1_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__com_netflix_eureka_eureka_core_1_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__com_netflix_hystrix_hystrix_core_1_5_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_commons_util_0_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_eventbus_0_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_infix_0_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_statistics_0_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__com_netflix_ribbon_ribbon_2_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__com_netflix_ribbon_ribbon_core_2_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__com_netflix_ribbon_ribbon_eureka_2_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__com_netflix_ribbon_ribbon_httpclient_2_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__com_netflix_ribbon_ribbon_loadbalancer_2_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__com_netflix_ribbon_ribbon_transport_2_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__com_netflix_servo_servo_core_0_12_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__com_sun_jersey_contribs_jersey_apache_client4_1_19_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__com_sun_jersey_jersey_client_1_19_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__com_sun_jersey_jersey_core_1_19_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__com_sun_jersey_jersey_server_1_19_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__com_sun_jersey_jersey_servlet_1_19_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__com_thoughtworks_xstream_xstream_1_4_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__commons_configuration_commons_configuration_1_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__commons_jxpath_commons_jxpath_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__io_micrometer_micrometer_core_1_0_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__io_netty_netty_buffer_4_1_29_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__io_netty_netty_codec_4_1_29_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__io_netty_netty_codec_http_4_1_29_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__io_netty_netty_common_4_1_29_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__io_netty_netty_resolver_4_1_29_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__io_netty_netty_transport_4_1_29_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_4_1_29_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__io_netty_netty_transport_native_unix_common_4_1_29_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__io_reactivex_rxjava_1_3_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__io_reactivex_rxnetty_0_4_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__io_reactivex_rxnetty_contexts_0_4_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__io_reactivex_rxnetty_servo_0_4_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__javax_ws_rs_jsr311_api_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__javax_xml_stream_stax_api_1_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__joda_time_joda_time_2_9_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__org_antlr_antlr_runtime_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__org_antlr_stringtemplate_3_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__org_apache_commons_commons_math_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_34.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_34.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_34.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_56.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_56.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__org_codehaus_jettison_jettison_1_3_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_3_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__org_codehaus_woodstox_woodstox_core_asl_4_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__org_freemarker_freemarker_2_3_28.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_12_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__org_latencyutils_LatencyUtils_2_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_2_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_autoconfigure_2_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__org_springframework_boot_spring_boot_configuration_processor_2_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_2_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_freemarker_2_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_2_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_2_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_archaius_2_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_core_2_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_client_2_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_server_2_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_ribbon_2_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_2_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_archaius_2_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_server_2_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_ribbon_2_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__org_springframework_security_spring_security_rsa_1_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__org_springframework_spring_aop_5_0_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__org_springframework_spring_beans_5_0_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__org_springframework_spring_context_5_0_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__org_springframework_spring_context_support_5_0_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__org_springframework_spring_core_5_0_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__org_springframework_spring_expression_5_0_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__org_springframework_spring_web_5_0_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__org_springframework_spring_webmvc_5_0_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__org_yaml_snakeyaml_1_19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__xml_apis_xml_apis_1_4_01.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__xmlpull_xmlpull_1_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/libraries/Maven__xpp3_xpp3_min_1_1_4c.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/Eureka_server.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/src/main/java/com/lingDream/celerity/CelerityEureka_ServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/Eureka_server/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/common/common.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/modules/doApi/doApi.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/modules/doDataBase/doDataBase.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/modules/doRedis/doRedis.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/modules/modules.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/run/run.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../celerityITSys/security/security.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../page/systemPage/.idea/systemPage.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/celerityIT.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_2_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_3_4_3_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_annotation_3_4_3_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_boot_starter_3_4_3_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_core_3_4_3_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_extension_3_4_3_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_4_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_11_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_2_7_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_7_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_7_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_10_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_10_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_34.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_34.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_34.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_9_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_12_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_15_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_22.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_0_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_0_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_0_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_0_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_0_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_0_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_0_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_0_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_0_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_0_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_0_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_0_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_0_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_0_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_0_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_0_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_0_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_0_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_0_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_0_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_0_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_0_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_19.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/common.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/lingDream/celerityIT/config/MybatisPlusConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/lingDream/celerityIT/entity/api/APIField.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/lingDream/celerityIT/entity/api/JSONAPI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/lingDream/celerityIT/entity/dataBase/DataBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/lingDream/celerityIT/entity/dataBase/Field.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/lingDream/celerityIT/entity/dataBase/Table.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/lingDream/celerityIT/entity/dataBase/TableOrView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/lingDream/celerityIT/entity/dataBase/View.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/lingDream/celerityIT/entity/mapper/InsertEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/lingDream/celerityIT/tool/overrideClass/mybatisPlus/AbstractCelerityItWrapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/lingDream/celerityIT/tool/overrideClass/mybatisPlus/insert/InsertCelerityItWrapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/lingDream/celerityIT/tool/overrideClass/mybatisPlus/query/QueryCelerityItWrapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/lingDream/celerityIT/tool/overrideClass/mybatisPlus/update/UpdateCelerityItWrapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/lingDream/celerityIT/util/StringUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/doApi/doApi.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/doApi/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/doDataBase/doDataBase.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/doDataBase/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/doDataBase/src/main/java/com/lingDream/celerityIT/mapper/DoDataMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/doDataBase/src/main/java/com/lingDream/celerityIT/mapper/DoDataMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/doDataBase/src/main/java/com/lingDream/celerityIT/mapper/DoFieldMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/doDataBase/src/main/java/com/lingDream/celerityIT/mapper/DoFieldMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/doDataBase/src/main/java/com/lingDream/celerityIT/mapper/DoTableMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/doDataBase/src/main/java/com/lingDream/celerityIT/mapper/DoTableMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/doDataBase/src/main/java/com/lingDream/celerityIT/mapper/DoViewMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/doDataBase/src/main/java/com/lingDream/celerityIT/mapper/DoViewMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/doDataBase/src/main/java/com/lingDream/celerityIT/service/DoDataService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/doDataBase/src/main/java/com/lingDream/celerityIT/service/DoTableFieldService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/doDataBase/src/main/java/com/lingDream/celerityIT/service/DoTableService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/doDataBase/src/main/java/com/lingDream/celerityIT/service/DoViewService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/doDataBase/src/main/java/com/lingDream/celerityIT/service/impl/DoDataServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/doDataBase/src/main/java/com/lingDream/celerityIT/service/impl/DoTableFieldServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/doDataBase/src/main/java/com/lingDream/celerityIT/service/impl/DoTableServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/doDataBase/src/main/java/com/lingDream/celerityIT/service/impl/DoViewServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/doDataBase/src/test/java/com/lingDream/DataBaseTestRun.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/doDataBase/src/test/java/com/lingDream/test/DataBaseTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/doDataBase/src/test/java/com/lingDream/test/mapper/DoDataMapperTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/doDataBase/src/test/java/com/lingDream/test/mapper/DoFieldMapperTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/doDataBase/src/test/java/com/lingDream/test/mapper/DoTableMapperTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/doDataBase/src/test/java/com/lingDream/test/mapper/DoViewMapperTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/doDataBase/src/test/java/com/lingDream/test/service/DoDataServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/doDataBase/src/test/java/com/lingDream/test/service/DoTableFieldServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/doDataBase/src/test/java/com/lingDream/test/service/DoTableServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/doDataBase/src/test/java/com/lingDream/test/service/DoViewService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/doDataBase/src/test/resources/application-dev.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/doDataBase/src/test/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/doRedis/doRedis.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/doRedis/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/doRedis/src/main/java/com/lingDream/celerityIT/DoRedis.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/modules.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/run.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/src/main/java/com/lingDream/CelerityITApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/src/main/resources/application-dev.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/src/test/java/com/lingDream/test/DataBaseTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/target/classes/application-dev.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/security/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/security/security.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/security/src/main/java/com/lingDream/celerityIT/config/MybatisPlusConfig.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="21gTZLgOF6gvug3hx4a2frmOnQI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/modules/doDataBase/src/test/java/com/lingDream" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/modules/doDataBase/src/test/java/com/lingDream/test" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="build.tools" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.lingDream.celerityIT.service.impl" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\work\self\celerityIT\celerityIT\modules\doDataBase\src\test\java\com\lingDream\test" />
+      <recent name="D:\workspace\work\self\celerityIT\celerityIT\modules\doDataBase\src\test" />
+      <recent name="D:\workspace\work\self\celerityIT\celerityIT\modules\doDataBase\src" />
+      <recent name="D:\workspace\work\self\celerityIT\celerityIT\modules\doDataBase\src\main\java\com\lingDream\celerityIT\mapper" />
+      <recent name="D:\workspace\work\self\celerityIT\celerityIT\run\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspace\work\self\celerityIT\celerityIT\run\src" />
+      <recent name="D:\workspace\work\self\celerityIT\celerityIT\modules\doDataBase\src\main\java\com\lingDream\celerityIT\mapper" />
+      <recent name="D:\workspace\work\self\celerityIT\celerityIT\modules" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.DataBaseTest.ff (2)">
+    <configuration name="DataBaseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="doDataBase" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lingDream.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lingDream.test" />
+      <option name="MAIN_CLASS_NAME" value="com.lingDream.test.DataBaseTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataBaseTest.ff (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="run" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lingDream.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lingDream.test" />
+      <option name="MAIN_CLASS_NAME" value="com.lingDream.test.DataBaseTest" />
+      <option name="METHOD_NAME" value="ff" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataBaseTest.ff (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="doDataBase" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lingDream.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lingDream.test" />
+      <option name="MAIN_CLASS_NAME" value="com.lingDream.test.DataBaseTest" />
+      <option name="METHOD_NAME" value="ff" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataBaseTest.ff" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="doDataBase" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lingDream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lingDream" />
+      <option name="MAIN_CLASS_NAME" value="com.lingDream.DataBaseTest" />
+      <option name="METHOD_NAME" value="ff" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataBaseTestRun" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="doDataBase" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lingDream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lingDream.DataBaseTestRun" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.DataBaseTest.ff" />
+      <item itemvalue="JUnit.DataBaseTest.ff (1)" />
+      <item itemvalue="JUnit.DataBaseTest.ff (2)" />
+      <item itemvalue="JUnit.DataBaseTest" />
+      <item itemvalue="Spring Boot.DataBaseTestRun" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.DataBaseTest.ff (2)" />
+        <item itemvalue="Spring Boot.DataBaseTestRun" />
+        <item itemvalue="JUnit.DataBaseTest" />
+        <item itemvalue="JUnit.DataBaseTest.ff (1)" />
+        <item itemvalue="JUnit.DataBaseTest.ff" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="f1d8aaf9-646a-465f-9b05-7f12bdc2f119" name="变更" comment="" />
+      <created>1638361791338</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1638361791338</updated>
+      <workItem from="1638361793645" duration="6229000" />
+      <workItem from="1638444922657" duration="804000" />
+      <workItem from="1638446043082" duration="6156000" />
+      <workItem from="1638453530795" duration="5353000" />
+      <workItem from="1638493992277" duration="367000" />
+      <workItem from="1638540784148" duration="346000" />
+      <workItem from="1638541784024" duration="36000" />
+      <workItem from="1639055534280" duration="1429000" />
+      <workItem from="1639056995021" duration="5734000" />
+      <workItem from="1639062981265" duration="1803000" />
+      <workItem from="1639120378126" duration="19055000" />
+      <workItem from="1639473006166" duration="375000" />
+      <workItem from="1639533774141" duration="112000" />
+    </task>
+    <task id="LOCAL-00001" summary="模块划分与基础类">
+      <created>1638494060672</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1638494060672</updated>
+    </task>
+    <task id="LOCAL-00002" summary="模块划分与基础类">
+      <created>1638494199750</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1638494199750</updated>
+    </task>
+    <task id="LOCAL-00003" summary="底层整体结构">
+      <created>1639140183705</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1639140183705</updated>
+    </task>
+    <task id="LOCAL-00004" summary="测试类搭建">
+      <created>1639142505485</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1639142505485</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="模块划分与基础类" />
+    <MESSAGE value="底层整体结构" />
+    <MESSAGE value="测试类搭建" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试类搭建" />
+  </component>
+</project>
