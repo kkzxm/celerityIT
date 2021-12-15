@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/celerityITSys.iml" filepath="$PROJECT_DIR$/.idea/celerityITSys.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/doApi/doApi.iml" filepath="$PROJECT_DIR$/modules/doApi/doApi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/doDataBase/doDataBase.iml" filepath="$PROJECT_DIR$/modules/doDataBase/doDataBase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/doRedis/doRedis.iml" filepath="$PROJECT_DIR$/modules/doRedis/doRedis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka_server/eureka_server.iml" filepath="$PROJECT_DIR$/eureka_server/eureka_server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/modules.iml" filepath="$PROJECT_DIR$/modules/modules.iml" />
+      <module fileurl="file://$PROJECT_DIR$/run/run.iml" filepath="$PROJECT_DIR$/run/run.iml" />
+      <module fileurl="file://$PROJECT_DIR$/security/security.iml" filepath="$PROJECT_DIR$/security/security.iml" />
+    </modules>
+  </component>
+</project>
