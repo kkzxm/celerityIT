@@ -20,6 +20,24 @@ public class CreateSysTableFlow extends Abs_DataBaseStartFlow {
                         new Field().setName("phone").setComment("手机号码")
                 )
         );
+        add(new Table().setName("api").setComment("请求接口")
+                .addFields(
+                        new Field().setName("id").setComment("编号").setPrimary(true),
+                        new Field().setName("APIName").setComment("名称"),
+                        new Field().setName("method").setComment("请求方法"),
+                        new Field().setName("address").setComment("请求地址")
+                )
+
+        );
+        add(new Table().setName("API_Field").setComment("API字段(包括接收和返回)")
+                .addFields(
+                        new Field().setName("id").setComment("编号").setPrimary(true),
+                        new Field().setName("name").setComment("名称"),
+                        new Field().setName("value_type").setComment("数据类型"),
+                        new Field().setName("p_id").setComment("父API字段"),
+                        new Field().setName("type").setComment("类型(请求or接收)")
+                )
+        );
     }};
 
     @Override

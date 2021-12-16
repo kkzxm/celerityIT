@@ -15,10 +15,7 @@
                 (${ew.querySql}) t
             </otherwise>
         </choose>
-
-        <where>
-            ${ew.customSqlSegment}
-        </where>
+        ${ew.customSqlSegment}
     </sql>
     <select id="query" resultType="map">
         <include refid="querySql"></include>
